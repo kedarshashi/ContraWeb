@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>ASCIImation</title>
+
+		<!-- instructor-provided JavaScript files; do not modify -->
+		<script src="http://www.cs.rochester.edu/u/jbigham/courses/210/assignments/5/animations.js" type="text/javascript"></script>
+
+		<!-- favicon -->
+		<link rel="icon" type="image/png" href="stickman.gif"/>
+
+		<!-- link to your files here -->
+		<link href="ascii.css" type="text/css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<h1>ASCII Animation Viewer</h1>
+		
+		<!-- your controls should go here -->
+		<div id="display">
+			<textarea id="displayarea" rows="20" cols="80"></textarea>
+		</div>
+
+		<div>
+			<fieldset>
+			<legend>Play Controls:</legend>
+				<button type="button" id="start">Start</button>
+				<button type="button" id="stop">Stop</button>
+			</fieldset>
+
+			<fieldset>
+			<legend>Animation:</legend>
+			<select id="animation">
+				<option value="blank">Blank</option>
+				<option value="exercise">Exercise</option>
+				<option value="juggler">Juggler</option>
+				<option value="bike">Bike</option>
+				<option value="dive">Dive</option>
+				<option value="custom">Custom</option>
+			</select>
+			</fieldset>
+
+			<fieldset>
+			<legend>Size:</legend>
+				<input type="radio" name="size" value="small" id="small"/>Small
+				<input type="radio" name="size" value="medium" id="medium" checked="checked"/>Medium
+				<input type="radio" name="size" value="large" id="large"/>Large
+			</fieldset>
+
+			<fieldset>
+			<legend>Speed:</legend>
+				<input type="checkbox" name="speed" value="turbo" id="turbo"/>Turbo
+			</fieldset>
+		</div>
+
+		<!-- W3 Validator Links -->
+		<div id="w3c">
+			<a href="http://validator.w3.org/check/referer"><img src="http://www.cs.rochester.edu/u/jbigham/courses/210/assignments/5/w3c-xhtml.png" alt="Valid XHTML 1.1" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.cs.rochester.edu/u/jbigham/courses/210/assignments/5/w3c-css.png" alt="Valid CSS" /></a>
+		</div>
+
+		<!-- links JavaScript files -->
+		<script src="ascii.js" type="text/javascript"></script>
+	</body>
+</html>

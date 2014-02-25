@@ -1,0 +1,113 @@
+body {
+	background-color: white;
+	background-image: url(/background.png);
+	background-repeat: repeat;
+	font-size: 8px;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* Top Banner */
+.banner {
+	background-image: url(/bannerbackground.png);
+	height: 50px;
+	display: block;
+}
+
+/* Main Content */
+.content{
+	width: 800px;
+	border: 4px;
+	border-color: #808080;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Left box containing the reviews */
+.content_left{
+	width: 550px;
+	float: left;
+}
+
+/*Banner of reviews*/
+.content_left.banner{
+	display: block;
+	height: 83px;
+}
+
+/* Reviews */
+
+
+/* Contains quote box and critic - left side */
+.review.left{
+	width: 47%;
+	border-spacing: 2%; /* unsure if this counts as the 2% spacing */
+	margin-top: 4px;
+	float: left;
+}
+
+/* Contains quote box and critic - right side */
+
+.review.right{
+	width: 47%;
+	border-spacing: 2%; /* unsure if this counts as the 2% spacing */
+	margin-top: 4px;
+	float: left;
+}
+
+/* Contains just the quotes*/
+.quote_box{
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px;
+	border-color: #808080;
+}
+
+/* Fresh/rotten image of the quote box */
+.quote_box.image{
+	float: left;
+}
+
+/* Div for author*/
+.review_author{
+	min-height: 47px;
+	margin-top: 4px;
+	margin-bottom: 3em;
+}
+
+/* Contains Author name and website */
+.review_author.content{
+	display:block;
+	overflow:hidden;
+	clear:none;
+}
+
+/* Critic picture/thumbnail */
+img.critic_thumb{
+	max-height: 38px;
+	float:left;
+	display:block;
+}
+
+/* General Overview div */
+.general_overview{
+	width: 250px;
+	font-size: 8px;
+	font-family: Arial, sans-serif;
+	float: right;
+}
+
+/* Movie Poster Picture */
+img.movie_poster{
+	display:block;
+	float:top;
+}
+
+
+
+
