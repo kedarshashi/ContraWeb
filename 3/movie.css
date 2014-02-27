@@ -4,7 +4,7 @@ body {
 	background-repeat: repeat;
 	font-size: 8pt;
 	font-family: Verdana, Tahoma, sans-serif;
-	margin-top: auto; /*modified */
+	margin-top: auto; /*modified*/
 	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,7 +55,6 @@ h1 {
 }
 
 .sidebar { /* sidebar with cast and crew */
-	font-weight: bold;/*modified */
 	width: 250px;
 	background-color: #a2b964;
 	font-family: Arial, sans-serif;
@@ -64,7 +63,7 @@ h1 {
 .reviews {
 	width: 550px;
 }
-.reviews .columns {
+.reviews .left {
 	float: left;
 	padding-left: 2%;
 	width: 47%;
@@ -91,11 +90,15 @@ h1 {
 }
 
 #total_reviews_bar {
-	margin-bottom: auto; /*modified */
 	text-align: center;
 	background-color: #a2b964;
 	padding: 5px;
 	clear: both;
+	margin-top: auto; /*modified*/
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .val{
 	float: right;
