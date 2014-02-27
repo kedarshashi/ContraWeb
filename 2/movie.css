@@ -89,6 +89,10 @@ h1 {
 	padding-right: 5px;
 }
 
+.reviews .critic{
+	margin-bottom: 3em;
+}
+
 #total_reviews_bar {
 	text-align: center;
 	background-color: #a2b964;
@@ -98,7 +102,6 @@ h1 {
 	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 .val{
 	float: right;
