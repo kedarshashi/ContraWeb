@@ -91,6 +91,7 @@ h1 {
 }
 
 #total_reviews_bar {
+	margin-bottom: auto; /*modified */
 	text-align: center;
 	background-color: #a2b964;
 	padding: 5px;
