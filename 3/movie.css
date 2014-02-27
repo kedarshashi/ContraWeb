@@ -55,6 +55,7 @@ h1 {
 }
 
 .sidebar { /* sidebar with cast and crew */
+	font-weight: bold;/*modified */
 	width: 250px;
 	background-color: #a2b964;
 	font-family: Arial, sans-serif;
