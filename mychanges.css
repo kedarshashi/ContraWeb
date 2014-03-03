@@ -1,0 +1,117 @@
+body {
+	padding-top: 60px;
+
+}
+
+img {
+	height: 210px;
+	width: 210px;
+	border-radius: 105px;
+	border: 1px solid #d4d4d4;
+}
+
+/* main homepage */
+.profile_container {
+	width: 1000px;
+	margin: auto;
+}
+
+.profile {
+	height: 400px;
+	width: 300px;
+	text-align: center;
+	background-color: #fafafa;
+  	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+
+	margin: 10px;
+	padding: 20px 0px 0px 0px;
+	float: left;
+}
+
+.profile p {
+	padding: 20px;
+}
+
+/* projects/assignments page */
+.projects {
+  max-width: 1000px;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+.projects a {
+	padding-left: 50px;
+}
+
+.assignment {
+  height: 100px;
+  width: 800px;
+  background-color: #fafafa;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+
+  margin: 4px;
+  float: left;
+}
+
+h3 {
+	padding-left: 20px;
+}
+
+/* contact page */
+.contact_container {
+	width: 1000px;
+	margin-top: 10px;
+	margin-left: 20%;
+}
+
+.contact_div {
+	height: 100px;
+	width: 1100px;
+	text-align: left;
+	background-color: #fafafa;
+  	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+
+	margin: 10px;
+	padding: 20px 0px 0px 0px;
+	float: left;
+}
+
+.contact_div img {
+	height: 150px;
+	width: 150px;
+	margin-top: -10px;
+	margin-left: 15px;
+	margin-right: 20px;
+	float: left;
+}
+
+.contact_div p {
+
+}
+
+/* index pages */
+.readme {
+	height: 200px;
+	width: 850px;
+	text-align: left;
+	background-color: #fafafa;
+  	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+
+	margin: 10px;
+	padding: 10px 0px 0px 0px;
+	float: left;
+}
+
+.readme p {
+	margin: 20px;
+}
+
+.readme#header {
+	height: 100px;
+	width: 830px;
+	padding-left: 20px;
+}

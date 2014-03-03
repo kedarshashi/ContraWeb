@@ -1,0 +1,18 @@
+<dt>STARRING</dt>
+<dd>Cary Elwes<br/>Robin Wright<br/>Andre the Giant<br/>Mandy Patinkin</dd>
+<dt>DIRECTOR</dt>
+<dd>Rob Reiner</dd>
+<dt>PRODUCER</dt>
+<dd>Arnold Scheinman<br/>Rob Reiner</dd>
+<dt>SCREENWRITER</dt>
+<dd>William Goldman</dd>
+<dt>RATING</dt>
+<dd>PG</dd>
+<dt>RELEASE DATE</dt>
+<dd>September 25, 1987 (USA)</dd>
+<dt>RUNTIME</dt>
+<dd>98 min</dd>
+<dt>SYNOPSIS</dt>
+<dd>Director Rob Reiner breathes vividly colored cinematic life into William Goldman's THE PRINCESS BRIDE, effectively evoking the wondrous, wide-eyed spirit of the witty 1973 novel.</dd>
+<dt>RELEASE COMPANY</dt>
+<dd>20th Century Fox</dd>
